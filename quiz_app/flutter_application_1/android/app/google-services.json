@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "951216595960",
+    "project_id": "quiz-app-basic",
+    "storage_bucket": "quiz-app-basic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951216595960:android:ed4c5af8b48d80ce83ac0d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Alrpgrlybv5nUKjUmGXmg8RXkBEw5LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
