@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/firebase_options.dart';
-import 'package:flutter_application_1/to_do_app.dart';
+import 'package:flutter_application_1/config/firebase_options.dart';
+import 'package:flutter_application_1/view/to_do_app.dart';
 
  Future<void> main() async {
    WidgetsFlutterBinding.ensureInitialized();
@@ -10,7 +10,7 @@ import 'package:flutter_application_1/to_do_app.dart';
  }
 
 class MainApp extends StatelessWidget {
-  const MainApp({Key? key}) : super(key: key);
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -46,21 +46,3 @@ class MainApp extends StatelessWidget {
 
 
 
-// import 'package:flutter/material.dart';
-// import 'package:flutter_application_1/to_do_app.dart';
-
-// void main() {
-//   runApp(const MainApp());
-// }
-
-// class MainApp extends StatelessWidget {
-//   const MainApp({super.key});
-//   @override
-//   Widget build(BuildContext context) {
-//     return const MaterialApp(
-//       title: 'ToDo APP',
-//       debugShowCheckedModeBanner: false,
-//       home: ToDoApp(),
-//     );
-//   }
-// }
